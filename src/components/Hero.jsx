@@ -1,11 +1,12 @@
 import React, { useRef, useEffect, useState } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import heroVideo from '../assets/hero video/yusuf-hero.mp4';
+import heroVideo from '../assets/hero video/my-hero.mp4';
 import { heroContent, personalInfo, socialLinks } from '../data/portfolioData';
 
 const Hero = () => {
   const videoRef = useRef(null);
+  const heroRef = useRef(null);
   const [isPlaying, setIsPlaying] = useState(false);
   const [isMuted, setIsMuted] = useState(false);
 
@@ -17,6 +18,39 @@ const Hero = () => {
     });
     // Video does NOT autoplay anymore
   }, []);
+
+  useEffect(() => {
+    const hero = heroRef.current;
+    const video = videoRef.current;
+
+    if (!hero || !video) return;
+
+    const observer = new IntersectionObserver(
+        ([entry]) => {
+            if (entry.isIntersecting) {
+    video.play()
+        .then(() => {
+            setIsPlaying(true);
+        })
+        .catch(() => {
+            setIsPlaying(false);
+        });
+} else {
+    video.pause();
+    setIsPlaying(false);
+}
+        },
+        {
+            threshold: 0.5
+        }
+    );
+
+    observer.observe(hero);
+
+    return () => {
+        observer.disconnect();
+    };
+}, []);
 
   const toggleVideo = (e) => {
     e.stopPropagation();
@@ -32,10 +66,13 @@ const Hero = () => {
   };
 
   return (
-    <section className="relative w-full h-screen overflow-hidden bg-black">
+    <section 
+    ref={heroRef}
+    className="relative w-full h-screen overflow-hidden bg-black">
       {/* Background Video */}
       <video
         ref={videoRef}
+        
         loop
         muted={isMuted}
         playsInline
@@ -109,7 +146,7 @@ const Hero = () => {
             data-aos="fade-up"
             className="text-white text-3xl md:text-5xl font-bold mb-4 tracking-tight"
           >
-            {heroContent.greeting}, <br /> <span className="text-transparent [-webkit-text-stroke:1.5px_black]">{heroContent.titleHighlight}</span>
+            {heroContent.greeting}, <br /> <span className="text-transparent [-webkit-text-stroke:1.5px_white]">{heroContent.titleHighlight}</span>
           </h1>
 
           {/* Subheading */}

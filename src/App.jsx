@@ -24,9 +24,9 @@ function App() {
       <TechnicalSkills />
       <Services />
       <Projects />
-      <ContentCreator />
+      
       <Internships />
-      <Leadership />
+      
       <Certificates />
       <SoftSkills />
       <Contact />

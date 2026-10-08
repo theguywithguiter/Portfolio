@@ -1,48 +1,48 @@
 // ============================================================
-// portfolioData.js — Centralized configuration for Md Yusuf's Portfolio
+// portfolioData.js — Centralized configuration for Subham's Portfolio
 // All external links, personal info, and content in one place.
 // Update this file to change any content across the entire site.
 // ============================================================
 
 export const personalInfo = {
-  name: "Md Yusuf",
-  firstName: "Md Yusuf",
-  brandName: "Md Yusuf",
+  name: "Subham",
+  firstName: "Subham",
+  brandName: "Subham",
   title: "Full Stack & Java Developer",
-  location: "Bhopal, India",
-  phone: "+91 99396-08743",
+  location: "Kolkata, India",
+  phone: "+91 9907374537",
   emails: {
-    primary: "mdyusufcse096@iesuniversity.ac.in",
-    secondary: "yusuf.rgpv@gmail.com",
+    primary: "subhomdatta.priority@gmail.com",
+    secondary: "subhomdatta.backup@gmail.com",
   },
   summary:
     "Aspiring software engineer and motivated B.Tech Computer Science student with solid skills in Java, Spring Boot, React, and Python. Passionate about building scalable full-stack applications with clean architecture and modern tech stacks.",
-  resumeUrl: "/Md_Yusuf_Resume_2026.pdf",
+  resumeUrl: "/SUBHOM_DATTA_RESUME_2026.pdf",
 };
 
 export const socialLinks = {
-  github: "https://github.com/mdyusuf0",
-  linkedin: "https://linkedin.com/in/mdyusuf0",
-  instagram: "https://instagram.com/heyyusuffff",
+  github: "https://github.com/theguywithguiter",
+  linkedin: "https://www.linkedin.com/in/theguywithguiter",
+  instagram: "https://instagram.com/theguywithguiter",
 };
 
 export const heroContent = {
-  greeting: "Hi, I'm Md Yusuf",
+  greeting: "Hi, I'm Subham",
   titleHighlight: "Full Stack & Java Developer",
   subtitle:
     "I build fast, scalable applications using Java, Spring Boot, MERN Stack, and Python.",
   ctaPrimary: { text: "View My Work", href: "#projects" },
   ctaSecondary: {
     text: "Contact Me",
-    href: "mailto:mdyusufcse096@iesuniversity.ac.in?subject=Hiring Inquiry – Portfolio&body=Hello Md Yusuf,%0D%0A%0D%0AI came across your portfolio and would like to discuss an opportunity with you.%0D%0A%0D%0ALooking forward to hearing from you.%0D%0ABest Regards,",
+    href: "mailto:subhomdatta.priority@gmail.com?subject=Hiring Inquiry – Portfolio&body=Hello Subham,%0D%0A%0D%0AI came across your portfolio and would like to discuss an opportunity with you.%0D%0A%0D%0ALooking forward to hearing from you.%0D%0ABest Regards,",
   },
-  ctaResume: { text: "Download Resume", href: "/Md_Yusuf_Resume_2026.pdf" },
+  ctaResume: { text: "Download Resume", href: "/SUBHOM_DATTA_RESUME_2026.pdf" },
 };
 
 export const aboutContent = {
   heading: "Hello!",
-  bio: `Hi, my name is <span class="text-black text-xl font-black mx-1 tracking-wide uppercase">Md Yusuf</span>, an aspiring software engineer based in Bhopal, India, dedicated to crafting clean, functional, and highly scalable full-stack applications.`,
-  techStack: ["Java", "Spring Boot", "MERN Stack"],
+  bio: `Hi, my name is <span class="text-black text-xl font-black mx-1 tracking-wide uppercase">Subham</span>, an aspiring software engineer based in Kolkata, India, dedicated to crafting clean, functional, and highly scalable full-stack applications.`,
+  techStack: ["Java", "Python", "Sql"],
 };
 
 export const skillsContent = {
@@ -206,23 +206,23 @@ export const leadershipList = [
 // Brand New Internships Data
 export const internshipsList = [
   {
-    organization: "Netlink, Bhopal",
-    role: "Data Analytics & BI Tools Intern",
-    duration: "June 2025 - August 2025",
-    skills: ["Data Analytics", "Business Intelligence", "Dashboard Design", "Data Modeling"],
-    tech: ["Lumenore", "MySQL", "Excel", "BI Tools"]
+    organization: "GeekGlory Technologies Pvt. Ltd",
+    role: "Frontend Web Development Intern",
+    duration: "Jan 2026 - Mar 2026",
+    skills: ["Responsive Web Design", "JavaScript", "Dashboard Design", "UI/UX Development"],
+    tech: ["HTML5", "CSS3", "JavaScript", "Git & GitHub"]
   },
   {
-    organization: "Canva",
-    role: "Visual Content Creator & Designer",
-    duration: "May 2024 - June 2024",
-    skills: ["Visual Designing", "Poster Design", "Team Branding", "Asset Creation"],
-    tech: ["Canva Pro", "Figma", "Canva Design Suite"]
+    organization: "Skyrovix",
+    role: "Full Stack Development Intern",
+    duration: "July 2026 - Sep 2026",
+    skills: ["Database Management", "Authentication", "API Integration", "Responsiveness"],
+    tech: ["React.js", "CSS3", "React.js", "SQL","REST APIs"]
   },
   {
-    organization: "CollegeTips.in",
+    organization: "Codeorbit",
     role: "Web Development Intern",
-    duration: "1 Month (Offline)",
+    duration: "1 Month (Remote)",
     skills: ["Frontend Development", "Responsive Layouts", "API Testing", "Web Performance"],
     tech: ["HTML5", "CSS3", "JavaScript", "Bootstrap"]
   }
@@ -242,104 +242,194 @@ export const softSkillsList = [
 
 export const projects = [
   {
-    id: "foodmesh",
-    number: "01",
-    badge: "🚀 Flagship Project",
-    title: "FoodMesh",
-    description:
-      "FoodMesh — An enterprise-grade multi-tenant restaurant management and food ordering SaaS platform inspired by UrbanPiper. It enables restaurants to manage multiple outlets, menus, inventory, customers, staff, and orders through a scalable architecture with secure authentication, role-based access control, and real-time operations. Built with React, Next.js, NestJS, PostgreSQL, Redis, Kafka, Elasticsearch, Docker, Kubernetes, and AWS.",
-    techTags: [
-      "React",
-      "Next.js",
-      "NestJS",
-      "PostgreSQL",
-      "Redis",
-      "Kafka",
-      "Elasticsearch",
-      "Docker",
-      "Kubernetes",
-      "AWS",
-    ],
-    links: {
-      github: "https://github.com/ersamirsingh/UrbanPiper",
-      demo: null,
-    },
-    isFlagship: true,
-  },
-  {
-    id: "karigar",
-    number: "02",
-    badge: null,
-    title: "Karigar",
-    description:
-      "A platform connecting local skilled workers with customers, featuring real-time search, worker profiles, and booking management with full database integration.",
-    techTags: ["React", "Node.js", "MongoDB", "Express", "REST API"],
-    links: {
-      github: "https://github.com/mdyusuf0/Karigar",
-      frontendDemo: "https://karigar-frontend.onrender.com",
-      backendApi: "https://karigar-zny2.onrender.com",
-    },
-    isFlagship: false,
-  },
-  {
-    id: "sentiment-analysis",
-    number: "03",
-    badge: null,
-    title: "AI-Powered Sentiment Analysis",
-    description:
-      "A full-stack web application that analyzes citizen feedback using Artificial Intelligence to classify sentiments as positive, negative, or neutral. Features a responsive React frontend, a Node.js backend, MongoDB for data storage, and n8n automation for workflow orchestration — enabling real-time insights and efficient feedback management.",
-    techTags: ["React", "Node.js", "MongoDB", "n8n", "AI/ML", "REST API"],
-    links: {
-      github: "#", // Update when available
-    },
-    isFlagship: false,
-  },
-];
 
+    id: "zelora",
+
+    number: "01",
+
+    badge: "🚀 Flagship Project",
+
+    title: "ZELORA",
+
+    description:
+
+      "ZELORA is a modern full-stack e-commerce platform built for a premium shopping experience. It includes a dedicated admin panel for product and order management, personalized product options, integrated payment channels, responsive interfaces, interactive magnetic UI elements, and cloud-powered infrastructure for scalable media and data management.",
+
+    techTags: [
+
+      "React",
+
+      "Next.js",
+
+      "TypeScript",
+
+      "JavaScript",
+
+      "JSX",
+
+      "CSS",
+
+      "SQL",
+
+      "Cloudflare D1",
+
+      "Cloudflare R2",
+
+      "Cloudflare Workers",
+
+      "Resend",
+
+      "REST API",
+
+    ],
+
+    links: {
+
+      github: "https://github.com/theguywithguiter/zelora",
+
+      demo: "https://zelora.subhomdatta-priority.workers.dev/",
+
+    },
+
+    isFlagship: true,
+
+  },
+
+  {
+
+    id: "careerportal",
+
+    number: "02",
+
+    badge: null,
+
+    title: "CareerPortal",
+
+    description:
+
+      "CareerPortal is a responsive frontend job-finding platform designed to make discovering opportunities simple and intuitive. Users can browse, search, and filter jobs based on their preferences, explore job details, and apply directly through the platform. It also includes browser-session-based sign-up and sign-in functionality with a clean interface optimized across different screen sizes.",
+
+    techTags: [
+
+      "HTML5",
+
+      "CSS3",
+
+      "JavaScript",
+
+      "Responsive Design",
+
+      "Browser Session",
+
+      "DOM Manipulation",
+
+      "UI/UX",
+
+    ],
+
+    links: {
+
+      github: "https://github.com/theguywithguiter/careerportal",
+
+      frontendDemo: "https://careerportal-one.vercel.app/",
+
+    },
+
+    isFlagship: false,
+
+  },
+
+  {
+
+    id: "voidwear",
+
+    number: "03",
+
+    badge: null,
+
+    title: "VoidWear",
+
+    description:
+
+      "VoidWear is a bold, modern D2C fashion e-commerce landing experience created for a contemporary T-shirt brand. The frontend features product-focused layouts, custom filtering, size selection, responsive interactions, and a dark visual identity designed to deliver a strong shopping experience across desktop, tablet, and mobile screens.",
+
+    techTags: [
+
+      "HTML5",
+
+      "CSS3",
+
+      "JavaScript",
+
+      "Responsive Design",
+
+      "Product Filtering",
+
+      "UI/UX",
+
+      "DOM Manipulation",
+
+    ],
+
+    links: {
+
+      github: "https://github.com/theguywithguiter/voidwear",
+
+      frontendDemo: "https://voidwear-nine.vercel.app/",
+
+    },
+
+    isFlagship: false,
+
+  },
+  
+
+];
 export const certificates = {
   featured: [
     {
-      name: "Oracle Cloud Infrastructure 2025",
-      issuer: "Oracle",
-      icon: "☁️",
+      name: "ICAT – Certificate of Participation",
+      issuer: "Internship Studio",
+      icon: "🏆",
     },
     {
-      name: "Programming in Java (94%)",
-      issuer: "NPTEL",
-      icon: "☕",
+      name: "Google Gemini Workshop 2026",
+      issuer: "Gemini",
+      icon: "✨",
     },
     {
-      name: "C Programming & Assembly Language",
-      issuer: "NPTEL",
-      icon: "⚙️",
+      name: "Full-Stack Development 101",
+      issuer: "Simplilearn",
+      icon: "💻",
     },
     {
-      name: "Technology Job Simulation",
-      issuer: "Deloitte",
-      icon: "💼",
+      name: "Getting Started with Generative AI",
+      issuer: "IBM",
+      icon: "🤖",
     },
     {
-      name: "Career Edge – IT Primer",
-      issuer: "TCS iON",
-      icon: "🎓",
+      name: "Artificial Intelligence",
+      issuer: "IIBM Institute of Business Management",
+      icon: "🧠",
     },
     {
-      name: "Fundamentals of BI & Analytics",
-      issuer: "Lumenore",
-      icon: "📊",
+      name: "AI Foundations",
+      issuer: "OpenAI",
+      icon: "🚀",
     },
+
   ],
   viewAllUrl:
-    "https://drive.google.com/file/d/1ObdGWtVSx8SsfR4AcbCySSd9LFXcAs9f/view?usp=sharing",
+    "https://www.linkedin.com/in/subham-datta-5796772a5/details/certifications/",
 };
 
 export const education = {
   degree: "B.Tech – Computer Science & Engineering",
-  institution: "IES College of Technology (RGPV)",
-  cgpa: "8.35",
-  graduation: "2027",
-  twelfth: "12th Science – 81%",
-  tenth: "10th CBSE – 70%",
+  institution: "BRAINWARE UNIVERSITY",
+  cgpa: "ONGOING",
+  graduation: "2029",
+  twelfth: "12th Science – 75%",
+  tenth: "10th CBSE – 79%",
 };
 
 export const footerContent = {
@@ -348,8 +438,8 @@ export const footerContent = {
     "Java · Spring Boot · React",
     "Full Stack Applications",
   ],
-  credential: "B.Tech CSE · CGPA 8.35",
-  copyright: `© ${new Date().getFullYear()} Md Yusuf | Built with React`,
+  credential: "B.Tech CSE 2029 - specialized in AI & ML",
+  copyright: `© ${new Date().getFullYear()} Work With Subham | Built with React`,
 };
 
 // EmailJS Configuration

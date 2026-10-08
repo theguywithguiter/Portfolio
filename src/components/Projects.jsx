@@ -86,7 +86,7 @@ const ProjectCard = ({ project, aosDelay }) => (
             }`}
           >
             <ExternalLinkIcon />
-            {project.links.demo ? 'Live Demo' : 'Demo Coming Soon'}
+            {project.links.demo ? 'Live Fullstack Demo' : 'Demo Coming Soon'}
           </a>
         )}
 

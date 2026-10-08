@@ -1,16 +1,71 @@
-# React + Vite
+# 💻 Subham Datta — Developer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive developer portfolio built with **React.js and Vite**, designed to showcase my projects, technical skills, internships, certifications, and development experience.
 
-Currently, two official plugins are available:
+The portfolio features a bold modern UI, responsive layouts, smooth navigation, interactive sections, and a project-focused presentation.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🚀 Live Portfolio
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+🌐 **Live Website:**  
+https://example.com/
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ✨ Features
+
+- 🎨 Modern and responsive UI
+- 📱 Fully responsive across desktop, tablet, and mobile
+- 🧑‍💻 Personal introduction and developer profile
+- 🛠️ Technical skills showcase
+- 🚀 Featured projects section
+- 💼 Internship and experience section
+- 🏆 Certifications showcase
+- 📬 Contact / Hire Me section
+- 🔗 GitHub and social media integration
+- ⚡ Fast development and production builds with Vite
+- 🎯 Smooth section-based navigation
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+- React.js
+- JavaScript
+- HTML5
+- CSS3
+- JSX
+
+### Development Tools
+- Vite
+- Git
+- GitHub
+- VS Code
+
+### Other Technologies
+- REST APIs
+- Responsive Web Design
+- DOM Manipulation
+- UI/UX Development
+
+---
+
+## 📂 Project Structure
+
+```text
+portfolio/
+├── public/
+├── src/
+│   ├── assets/
+│   ├── components/
+│   ├── data/
+│   │   └── portfolioData.js
+│   ├── App.jsx
+│   ├── App.css
+│   └── main.jsx
+├── index.html
+├── package.json
+├── vite.config.js
+└── README.md
